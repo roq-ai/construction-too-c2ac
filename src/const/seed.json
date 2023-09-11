@@ -1,0 +1,2522 @@
+[
+  {
+    "customer_profile": [
+      {
+        "id": "f373f3e4-5c16-448a-baa1-8fde802a8b29",
+        "address": "123 Main St",
+        "city": "New York",
+        "state": "NY",
+        "zip_code": "10001",
+        "created_at": "2023-09-10T15:39:18.142Z",
+        "updated_at": "2023-09-11T11:53:26.983Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "470005cf-291f-4a76-8a21-a596112ef384",
+        "address": "456 Elm St",
+        "city": "Los Angeles",
+        "state": "CA",
+        "zip_code": "90001",
+        "created_at": "2023-09-10T17:16:30.134Z",
+        "updated_at": "2023-09-11T12:48:22.939Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7efbda03-d775-42d0-a47c-74102f8d9178",
+        "address": "789 Oak St",
+        "city": "Chicago",
+        "state": "IL",
+        "zip_code": "60601",
+        "created_at": "2023-09-10T17:20:54.805Z",
+        "updated_at": "2023-09-11T09:54:06.213Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0b3898de-ef57-4e9c-9519-7811c1da9a76",
+        "address": "321 Pine St",
+        "city": "Houston",
+        "state": "TX",
+        "zip_code": "77001",
+        "created_at": "2023-09-11T14:06:17.730Z",
+        "updated_at": "2023-09-10T21:22:39.431Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8ca8e061-2363-4b4b-82b6-9b41d2b19cc5",
+        "address": "654 Maple St",
+        "city": "Philadelphia",
+        "state": "PA",
+        "zip_code": "19101",
+        "created_at": "2023-09-11T10:16:53.646Z",
+        "updated_at": "2023-09-11T00:54:10.079Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "outlet": [
+      {
+        "id": "753ef6ba-3293-4a86-8b95-7e39b2178fde",
+        "name": "Outlet A",
+        "address": "789 Main St",
+        "city": "New York",
+        "state": "NY",
+        "zip_code": "10001",
+        "created_at": "2023-09-11T02:37:42.164Z",
+        "updated_at": "2023-09-10T19:25:39.603Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "4bff0192-1e67-472e-85a1-0efed55c2d6d",
+        "name": "Outlet B",
+        "address": "123 Elm St",
+        "city": "Los Angeles",
+        "state": "CA",
+        "zip_code": "90001",
+        "created_at": "2023-09-10T19:49:40.391Z",
+        "updated_at": "2023-09-11T11:38:27.579Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "d8b45fb7-1d45-4797-8e08-aa518f2a0205",
+        "name": "Outlet C",
+        "address": "456 Oak St",
+        "city": "Chicago",
+        "state": "IL",
+        "zip_code": "60601",
+        "created_at": "2023-09-11T08:38:55.437Z",
+        "updated_at": "2023-09-10T21:41:01.793Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "6b8bcc04-aefe-480b-adea-a42bd5dfa98a",
+        "name": "Outlet D",
+        "address": "321 Pine St",
+        "city": "Houston",
+        "state": "TX",
+        "zip_code": "77001",
+        "created_at": "2023-09-10T20:54:08.137Z",
+        "updated_at": "2023-09-11T08:43:09.147Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "29febb5c-c1a7-4c05-b5f6-b3f27cb5512f",
+        "name": "Outlet E",
+        "address": "654 Maple St",
+        "city": "Philadelphia",
+        "state": "PA",
+        "zip_code": "19101",
+        "created_at": "2023-09-11T12:25:19.641Z",
+        "updated_at": "2023-09-10T19:22:24.002Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "tool": [
+      {
+        "id": "a3cce0c3-f38f-4c1c-8f5f-32586f29c620",
+        "name": "Tool A",
+        "description": "A versatile tool for various tasks",
+        "availability_status": false,
+        "created_at": "2023-09-10T19:32:05.591Z",
+        "updated_at": "2023-09-11T09:13:29.034Z",
+        "outlet_id": "6b8bcc04-aefe-480b-adea-a42bd5dfa98a"
+      },
+      {
+        "id": "29d8b58d-5a48-4679-b6ce-5cd55de7f8c0",
+        "name": "Tool B",
+        "description": "An essential tool for professionals",
+        "availability_status": true,
+        "created_at": "2023-09-11T11:15:44.631Z",
+        "updated_at": "2023-09-11T10:19:52.883Z",
+        "outlet_id": "753ef6ba-3293-4a86-8b95-7e39b2178fde"
+      },
+      {
+        "id": "97a1e375-2068-4c25-b0eb-f527d1d164ef",
+        "name": "Tool C",
+        "description": "A reliable tool for everyday use",
+        "availability_status": false,
+        "created_at": "2023-09-11T03:45:24.529Z",
+        "updated_at": "2023-09-11T08:45:05.576Z",
+        "outlet_id": "6b8bcc04-aefe-480b-adea-a42bd5dfa98a"
+      },
+      {
+        "id": "1fa9b108-8c6d-4a55-a758-134d24757bdc",
+        "name": "Tool D",
+        "description": "A high-quality tool for precision work",
+        "availability_status": true,
+        "created_at": "2023-09-11T07:18:49.149Z",
+        "updated_at": "2023-09-10T21:51:35.536Z",
+        "outlet_id": "d8b45fb7-1d45-4797-8e08-aa518f2a0205"
+      },
+      {
+        "id": "0774b899-5d7c-4196-a7a5-7248d6aa1008",
+        "name": "Tool E",
+        "description": "An innovative tool with advanced features",
+        "availability_status": false,
+        "created_at": "2023-09-11T04:17:34.138Z",
+        "updated_at": "2023-09-11T10:47:59.469Z",
+        "outlet_id": "29febb5c-c1a7-4c05-b5f6-b3f27cb5512f"
+      }
+    ],
+    "rental": [
+      {
+        "id": "0b0e03be-2528-4961-8da4-0c032badde07",
+        "rental_date": "2023-09-10T17:45:27.314Z",
+        "return_date": "2023-09-11T06:12:02.088Z",
+        "created_at": "2023-09-10T19:02:36.200Z",
+        "updated_at": "2023-09-10T16:32:44.098Z",
+        "tool_id": "a3cce0c3-f38f-4c1c-8f5f-32586f29c620",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "60d7003c-1e0f-462c-b63f-1e6934eee0c0",
+        "rental_date": "2023-09-11T08:30:38.197Z",
+        "return_date": "2023-09-10T20:27:48.581Z",
+        "created_at": "2023-09-10T23:57:40.588Z",
+        "updated_at": "2023-09-11T01:33:00.849Z",
+        "tool_id": "1fa9b108-8c6d-4a55-a758-134d24757bdc",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0dd2ad01-83a4-4700-b748-dd365efe340b",
+        "rental_date": "2023-09-11T10:26:59.982Z",
+        "return_date": "2023-09-11T07:03:56.595Z",
+        "created_at": "2023-09-10T17:01:16.507Z",
+        "updated_at": "2023-09-10T21:38:11.451Z",
+        "tool_id": "97a1e375-2068-4c25-b0eb-f527d1d164ef",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e6493024-6602-40e0-a0d7-499c3552a13d",
+        "rental_date": "2023-09-11T08:04:05.393Z",
+        "return_date": "2023-09-11T08:02:14.486Z",
+        "created_at": "2023-09-11T14:05:49.408Z",
+        "updated_at": "2023-09-10T17:27:59.811Z",
+        "tool_id": "97a1e375-2068-4c25-b0eb-f527d1d164ef",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e8235d0f-bd41-4edc-a3d3-6dbde3ef4bd3",
+        "rental_date": "2023-09-11T04:49:05.563Z",
+        "return_date": "2023-09-10T23:11:09.507Z",
+        "created_at": "2023-09-11T01:28:29.556Z",
+        "updated_at": "2023-09-11T08:01:36.924Z",
+        "tool_id": "97a1e375-2068-4c25-b0eb-f527d1d164ef",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "70a4501e-21ac-4d24-823f-7a7aa2c59de6",
+        "email": "Mabelle.Nitzsche99@yahoo.com",
+        "firstName": "Madyson",
+        "lastName": "Cassin",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/375.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "e03d2a05-43f1-495a-8cfe-9fefd138660e",
+        "email": "Krystel9@hotmail.com",
+        "firstName": "Maeve",
+        "lastName": "Gorczany",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/771.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "6d9f5e76-dcfe-4f3d-a553-19134a794216",
+        "email": "Crystal.Bogan@hotmail.com",
+        "firstName": "Jeanne",
+        "lastName": "Wehner",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/280.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "14cd7ab2-2841-4c95-a262-f86f2f8ce1bf",
+        "email": "Gloria.Daniel@gmail.com",
+        "firstName": "Imelda",
+        "lastName": "Trantow",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/55981395",
+        "tenantId": null
+      },
+      {
+        "reference": "4068a4c1-c412-46e5-8aba-2fd5d73b6a1d",
+        "email": "Junior.Hickle@gmail.com",
+        "firstName": "Savanah",
+        "lastName": "Ward",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/137.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "customer_profile": [
+      {
+        "id": "b092231c-7919-4cfa-b48d-d5da2d789c81",
+        "address": "123 Main St",
+        "city": "New York",
+        "state": "NY",
+        "zip_code": "10001",
+        "created_at": "2023-09-11T04:04:04.950Z",
+        "updated_at": "2023-09-11T02:51:15.513Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "42f0110c-ca40-4030-8a64-13a7ca88a1c8",
+        "address": "456 Elm St",
+        "city": "Los Angeles",
+        "state": "CA",
+        "zip_code": "90001",
+        "created_at": "2023-09-10T21:22:02.996Z",
+        "updated_at": "2023-09-10T16:41:54.658Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "44a4ba2d-e0a8-4440-93c8-1537eecc9385",
+        "address": "789 Oak St",
+        "city": "Chicago",
+        "state": "IL",
+        "zip_code": "60601",
+        "created_at": "2023-09-11T01:34:12.908Z",
+        "updated_at": "2023-09-11T09:00:45.703Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "398cf316-c9b6-4ffd-b56d-db43decabd8c",
+        "address": "321 Pine St",
+        "city": "Houston",
+        "state": "TX",
+        "zip_code": "77001",
+        "created_at": "2023-09-11T07:45:11.121Z",
+        "updated_at": "2023-09-11T06:28:49.006Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c53764db-478a-450d-85e7-f4f699e3f976",
+        "address": "654 Maple St",
+        "city": "Philadelphia",
+        "state": "PA",
+        "zip_code": "19101",
+        "created_at": "2023-09-11T07:57:48.604Z",
+        "updated_at": "2023-09-11T10:43:03.108Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "outlet": [
+      {
+        "id": "b8f027b9-3fd5-4ba2-8ff1-25a73e1dfb2e",
+        "name": "Outlet A",
+        "address": "789 Main St",
+        "city": "New York",
+        "state": "NY",
+        "zip_code": "10001",
+        "created_at": "2023-09-11T02:24:30.767Z",
+        "updated_at": "2023-09-11T05:35:03.140Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "9dd90865-0f83-4fb3-ba6a-f84e8a54d188",
+        "name": "Outlet B",
+        "address": "456 Elm St",
+        "city": "Los Angeles",
+        "state": "CA",
+        "zip_code": "90001",
+        "created_at": "2023-09-11T13:44:21.347Z",
+        "updated_at": "2023-09-11T00:43:56.961Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "b96a5300-106e-4159-b16d-e740c575094c",
+        "name": "Outlet C",
+        "address": "123 Oak St",
+        "city": "Chicago",
+        "state": "IL",
+        "zip_code": "60601",
+        "created_at": "2023-09-11T03:04:45.644Z",
+        "updated_at": "2023-09-11T11:47:50.301Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "d2951dbc-bce6-4fe5-b360-883703f58545",
+        "name": "Outlet D",
+        "address": "321 Pine St",
+        "city": "Houston",
+        "state": "TX",
+        "zip_code": "77001",
+        "created_at": "2023-09-11T07:46:10.180Z",
+        "updated_at": "2023-09-11T14:12:24.328Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "efaeff7f-aff4-42bb-9a0b-a29fed866456",
+        "name": "Outlet E",
+        "address": "654 Maple St",
+        "city": "Philadelphia",
+        "state": "PA",
+        "zip_code": "19101",
+        "created_at": "2023-09-10T16:58:51.665Z",
+        "updated_at": "2023-09-11T07:08:49.352Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "tool": [
+      {
+        "id": "67416ecd-4efe-4c77-a058-086d74180338",
+        "name": "Tool 1",
+        "description": "A versatile tool for various tasks",
+        "availability_status": true,
+        "created_at": "2023-09-10T20:12:39.094Z",
+        "updated_at": "2023-09-10T18:31:59.523Z",
+        "outlet_id": "9dd90865-0f83-4fb3-ba6a-f84e8a54d188"
+      },
+      {
+        "id": "8bdf8b19-1c96-417e-aed2-5472470f7ede",
+        "name": "Tool 2",
+        "description": "An essential tool for professionals",
+        "availability_status": false,
+        "created_at": "2023-09-10T16:46:28.443Z",
+        "updated_at": "2023-09-11T04:47:21.656Z",
+        "outlet_id": "b96a5300-106e-4159-b16d-e740c575094c"
+      },
+      {
+        "id": "c36e83c3-85fc-4772-a8f7-0d2d445cee7a",
+        "name": "Tool 3",
+        "description": "A reliable tool for everyday use",
+        "availability_status": false,
+        "created_at": "2023-09-11T07:36:09.845Z",
+        "updated_at": "2023-09-10T23:52:12.929Z",
+        "outlet_id": "9dd90865-0f83-4fb3-ba6a-f84e8a54d188"
+      },
+      {
+        "id": "6095e91f-0e29-4820-96f7-3abb3566e028",
+        "name": "Tool 4",
+        "description": "A high-quality tool with advanced features",
+        "availability_status": false,
+        "created_at": "2023-09-11T05:39:19.600Z",
+        "updated_at": "2023-09-11T12:00:55.044Z",
+        "outlet_id": "b8f027b9-3fd5-4ba2-8ff1-25a73e1dfb2e"
+      },
+      {
+        "id": "0597700a-3663-4a9a-a91c-e7a5b6d40fe4",
+        "name": "Tool 5",
+        "description": "A durable tool built to last",
+        "availability_status": true,
+        "created_at": "2023-09-11T01:02:34.919Z",
+        "updated_at": "2023-09-11T11:54:16.799Z",
+        "outlet_id": "9dd90865-0f83-4fb3-ba6a-f84e8a54d188"
+      }
+    ],
+    "rental": [
+      {
+        "id": "2c54dcdf-1f61-4fd4-ba6e-1adf5075c41b",
+        "rental_date": "2023-09-11T09:42:08.856Z",
+        "return_date": "2023-09-11T06:50:39.775Z",
+        "created_at": "2023-09-10T16:34:21.870Z",
+        "updated_at": "2023-09-11T04:18:55.574Z",
+        "tool_id": "0597700a-3663-4a9a-a91c-e7a5b6d40fe4",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d899dcef-7c56-4c77-8ecf-98b46b950f2e",
+        "rental_date": "2023-09-11T05:46:03.327Z",
+        "return_date": "2023-09-10T19:11:30.943Z",
+        "created_at": "2023-09-11T12:59:53.815Z",
+        "updated_at": "2023-09-10T15:24:47.066Z",
+        "tool_id": "6095e91f-0e29-4820-96f7-3abb3566e028",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6ecfdb3e-6f00-4695-937f-3535ae98003b",
+        "rental_date": "2023-09-10T15:31:53.967Z",
+        "return_date": "2023-09-11T04:44:28.238Z",
+        "created_at": "2023-09-10T14:42:51.023Z",
+        "updated_at": "2023-09-11T10:51:31.968Z",
+        "tool_id": "67416ecd-4efe-4c77-a058-086d74180338",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8ec75e78-9d95-4d09-91aa-f0e71762a771",
+        "rental_date": "2023-09-11T13:08:02.099Z",
+        "return_date": "2023-09-10T18:48:37.776Z",
+        "created_at": "2023-09-11T13:26:16.804Z",
+        "updated_at": "2023-09-10T18:45:42.812Z",
+        "tool_id": "c36e83c3-85fc-4772-a8f7-0d2d445cee7a",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c7724de7-fcd0-4558-bf56-dff1c2bfee4f",
+        "rental_date": "2023-09-11T06:01:34.569Z",
+        "return_date": "2023-09-10T15:40:35.399Z",
+        "created_at": "2023-09-10T21:24:31.098Z",
+        "updated_at": "2023-09-10T19:16:18.245Z",
+        "tool_id": "67416ecd-4efe-4c77-a058-086d74180338",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "8a6dd6fc-7d8c-4e0b-a1f5-1f1626853211",
+        "email": "Minerva_Goodwin-Cummerata84@hotmail.com",
+        "firstName": "Rebecca",
+        "lastName": "Torp",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/10504158",
+        "tenantId": null
+      },
+      {
+        "reference": "52e3263e-411c-480b-8c3c-4f1c8c03049a",
+        "email": "Bonnie10@yahoo.com",
+        "firstName": "Lauretta",
+        "lastName": "Hand",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/353.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "96d596c8-6640-4544-99fc-2b9630f4333d",
+        "email": "Sibyl48@gmail.com",
+        "firstName": "Mara",
+        "lastName": "Bosco",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/743.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "e9af1b06-7ff8-4950-b31f-f2017a3c6b94",
+        "email": "Trever_Balistreri25@hotmail.com",
+        "firstName": "Deja",
+        "lastName": "Marquardt",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/58.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "f33ade10-1595-45fb-a690-430b610d1155",
+        "email": "Francis.Kuhlman45@gmail.com",
+        "firstName": "Maximillia",
+        "lastName": "Fisher",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1900859",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "customer_profile": [
+      {
+        "id": "5ad92337-2a2e-415e-9c91-13d9311ad208",
+        "address": "123 Main St",
+        "city": "New York",
+        "state": "NY",
+        "zip_code": "10001",
+        "created_at": "2023-09-11T07:03:55.745Z",
+        "updated_at": "2023-09-11T11:48:26.184Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2d9e46f3-40a5-431d-88de-2bbd17dc0279",
+        "address": "456 Elm St",
+        "city": "Los Angeles",
+        "state": "CA",
+        "zip_code": "90001",
+        "created_at": "2023-09-10T21:09:02.918Z",
+        "updated_at": "2023-09-10T22:11:11.315Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "964af39c-6d3c-4f87-86b7-16cf1ee2e5ec",
+        "address": "789 Oak St",
+        "city": "Chicago",
+        "state": "IL",
+        "zip_code": "60601",
+        "created_at": "2023-09-11T02:21:12.043Z",
+        "updated_at": "2023-09-11T02:30:44.144Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9032b0d7-24dc-462a-957d-b12613c85f88",
+        "address": "321 Pine St",
+        "city": "Houston",
+        "state": "TX",
+        "zip_code": "77001",
+        "created_at": "2023-09-11T11:01:37.579Z",
+        "updated_at": "2023-09-11T08:50:21.245Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0c1a2c9e-193c-4a6a-b48b-ca0db847aa8c",
+        "address": "654 Maple St",
+        "city": "Phoenix",
+        "state": "AZ",
+        "zip_code": "85001",
+        "created_at": "2023-09-11T04:25:58.969Z",
+        "updated_at": "2023-09-10T23:36:05.174Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "outlet": [
+      {
+        "id": "a8a68c8d-cd7d-48ac-a2ea-ff21a070ea26",
+        "name": "Outlet 1",
+        "address": "789 Main St",
+        "city": "New York",
+        "state": "NY",
+        "zip_code": "10001",
+        "created_at": "2023-09-11T07:31:42.238Z",
+        "updated_at": "2023-09-11T11:16:16.905Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "d138fe0a-f223-49bc-9b9b-11ecdcec2d64",
+        "name": "Outlet 2",
+        "address": "456 Elm St",
+        "city": "Los Angeles",
+        "state": "CA",
+        "zip_code": "90001",
+        "created_at": "2023-09-10T21:22:27.308Z",
+        "updated_at": "2023-09-11T01:31:12.459Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "a8097f29-30e3-4f0b-b66e-c6108478ab2e",
+        "name": "Outlet 3",
+        "address": "123 Oak St",
+        "city": "Chicago",
+        "state": "IL",
+        "zip_code": "60601",
+        "created_at": "2023-09-11T06:29:27.996Z",
+        "updated_at": "2023-09-11T02:07:33.987Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "98858912-cbd1-4984-84a9-5a7816b23970",
+        "name": "Outlet 4",
+        "address": "321 Pine St",
+        "city": "Houston",
+        "state": "TX",
+        "zip_code": "77001",
+        "created_at": "2023-09-11T00:20:47.103Z",
+        "updated_at": "2023-09-11T13:56:52.369Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "fae0b1b4-a4b2-4c0a-a028-7fc97609d1d0",
+        "name": "Outlet 5",
+        "address": "654 Maple St",
+        "city": "Phoenix",
+        "state": "AZ",
+        "zip_code": "85001",
+        "created_at": "2023-09-11T07:27:37.923Z",
+        "updated_at": "2023-09-11T10:08:38.577Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "tool": [
+      {
+        "id": "74b686e0-58e8-4247-86fa-56dceb766a8f",
+        "name": "Tool 1",
+        "description": "A versatile tool for various tasks",
+        "availability_status": false,
+        "created_at": "2023-09-11T06:36:42.665Z",
+        "updated_at": "2023-09-10T22:15:24.366Z",
+        "outlet_id": "a8a68c8d-cd7d-48ac-a2ea-ff21a070ea26"
+      },
+      {
+        "id": "0473168d-449d-491b-a145-52ba143a5d98",
+        "name": "Tool 2",
+        "description": "An essential tool for every professional",
+        "availability_status": true,
+        "created_at": "2023-09-11T03:18:06.590Z",
+        "updated_at": "2023-09-11T14:14:43.167Z",
+        "outlet_id": "fae0b1b4-a4b2-4c0a-a028-7fc97609d1d0"
+      },
+      {
+        "id": "cffe5405-cad3-4eb9-a7c9-4a5c13c40630",
+        "name": "Tool 3",
+        "description": "A reliable tool for everyday use",
+        "availability_status": false,
+        "created_at": "2023-09-11T07:03:55.412Z",
+        "updated_at": "2023-09-10T23:02:33.511Z",
+        "outlet_id": "a8097f29-30e3-4f0b-b66e-c6108478ab2e"
+      },
+      {
+        "id": "82969467-b0f3-42b4-a58b-368e63abf2ad",
+        "name": "Tool 4",
+        "description": "A durable tool built to last",
+        "availability_status": true,
+        "created_at": "2023-09-11T03:56:33.387Z",
+        "updated_at": "2023-09-10T20:43:05.423Z",
+        "outlet_id": "d138fe0a-f223-49bc-9b9b-11ecdcec2d64"
+      },
+      {
+        "id": "e1bf5013-3e7b-4da4-adda-04993c4b923e",
+        "name": "Tool 5",
+        "description": "A high-performance tool for demanding applications",
+        "availability_status": false,
+        "created_at": "2023-09-11T09:17:27.233Z",
+        "updated_at": "2023-09-10T20:54:51.334Z",
+        "outlet_id": "a8097f29-30e3-4f0b-b66e-c6108478ab2e"
+      }
+    ],
+    "rental": [
+      {
+        "id": "a95f470b-cc20-476f-93e7-3528001d93a2",
+        "rental_date": "2023-09-11T06:33:08.833Z",
+        "return_date": "2023-09-11T13:05:42.865Z",
+        "created_at": "2023-09-10T18:33:21.921Z",
+        "updated_at": "2023-09-10T19:45:11.567Z",
+        "tool_id": "e1bf5013-3e7b-4da4-adda-04993c4b923e",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1084930e-c000-4520-a220-cfcb31c298e4",
+        "rental_date": "2023-09-11T13:38:28.931Z",
+        "return_date": "2023-09-11T03:46:45.402Z",
+        "created_at": "2023-09-10T20:29:07.837Z",
+        "updated_at": "2023-09-10T15:32:37.000Z",
+        "tool_id": "0473168d-449d-491b-a145-52ba143a5d98",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b739c8ec-9049-4ac9-9bed-c60cf24e2132",
+        "rental_date": "2023-09-11T14:08:05.101Z",
+        "return_date": "2023-09-11T09:04:37.646Z",
+        "created_at": "2023-09-11T12:15:07.426Z",
+        "updated_at": "2023-09-10T17:35:24.899Z",
+        "tool_id": "74b686e0-58e8-4247-86fa-56dceb766a8f",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c48f4bdf-96f3-466f-9797-1385f20ba991",
+        "rental_date": "2023-09-10T18:46:42.016Z",
+        "return_date": "2023-09-11T02:16:39.920Z",
+        "created_at": "2023-09-11T08:58:01.764Z",
+        "updated_at": "2023-09-11T13:20:41.814Z",
+        "tool_id": "e1bf5013-3e7b-4da4-adda-04993c4b923e",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4f31c7d0-d6ed-423b-b919-5b23929d291b",
+        "rental_date": "2023-09-11T10:32:35.793Z",
+        "return_date": "2023-09-11T04:48:22.375Z",
+        "created_at": "2023-09-11T09:31:21.185Z",
+        "updated_at": "2023-09-10T22:50:19.938Z",
+        "tool_id": "e1bf5013-3e7b-4da4-adda-04993c4b923e",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "cc170fd4-5829-4c05-92d1-7edc01bf7bcd",
+        "email": "Jaunita26@gmail.com",
+        "firstName": "George",
+        "lastName": "Daniel",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/847.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "9bc6509c-9939-44f6-9e65-65ee88616cd0",
+        "email": "Yesenia.Cummerata12@gmail.com",
+        "firstName": "Eloy",
+        "lastName": "Schamberger",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/96418962",
+        "tenantId": null
+      },
+      {
+        "reference": "3cc7d9e6-60d7-47d8-b5bd-fcd174f23c54",
+        "email": "Tod57@gmail.com",
+        "firstName": "Emery",
+        "lastName": "Hoppe",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/7467426",
+        "tenantId": null
+      },
+      {
+        "reference": "c04989cd-dbd6-46cd-9d8d-7ce0081364a7",
+        "email": "Jordane85@hotmail.com",
+        "firstName": "Paula",
+        "lastName": "Kling",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/2719078",
+        "tenantId": null
+      },
+      {
+        "reference": "cb655d10-2604-4d0b-a415-3b45726917e2",
+        "email": "Alanna7@hotmail.com",
+        "firstName": "Jamar",
+        "lastName": "Batz",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1224.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "customer_profile": [
+      {
+        "id": "a75f5ec7-4f13-4b20-bfdb-b59177c02520",
+        "address": "123 Main St",
+        "city": "New York",
+        "state": "NY",
+        "zip_code": "10001",
+        "created_at": "2023-09-11T08:46:56.807Z",
+        "updated_at": "2023-09-11T06:16:20.085Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "17d0e5ee-a627-4eb7-b962-e6c3ca74c053",
+        "address": "456 Elm St",
+        "city": "Los Angeles",
+        "state": "CA",
+        "zip_code": "90001",
+        "created_at": "2023-09-10T17:01:27.769Z",
+        "updated_at": "2023-09-10T17:27:26.323Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e86ab354-fd51-4d06-aaae-e49e4cfb9067",
+        "address": "789 Oak St",
+        "city": "Chicago",
+        "state": "IL",
+        "zip_code": "60601",
+        "created_at": "2023-09-10T20:30:36.333Z",
+        "updated_at": "2023-09-10T17:44:12.637Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f80df89a-3dd4-4cea-be09-e266a01d2753",
+        "address": "321 Pine St",
+        "city": "Houston",
+        "state": "TX",
+        "zip_code": "77001",
+        "created_at": "2023-09-10T22:27:14.172Z",
+        "updated_at": "2023-09-11T05:34:38.046Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4caf8a73-84a8-4ba0-b54f-88eda9da1e83",
+        "address": "654 Maple St",
+        "city": "Phoenix",
+        "state": "AZ",
+        "zip_code": "85001",
+        "created_at": "2023-09-11T05:21:30.426Z",
+        "updated_at": "2023-09-11T03:10:55.537Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "outlet": [
+      {
+        "id": "d517a233-f07f-4509-9ae5-96f7a4f6ba36",
+        "name": "Outlet 1",
+        "address": "789 Main St",
+        "city": "New York",
+        "state": "NY",
+        "zip_code": "10001",
+        "created_at": "2023-09-11T09:32:46.281Z",
+        "updated_at": "2023-09-11T00:36:24.540Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "73162692-dc38-4898-aede-5e0d826a2ecb",
+        "name": "Outlet 2",
+        "address": "456 Elm St",
+        "city": "Los Angeles",
+        "state": "CA",
+        "zip_code": "90001",
+        "created_at": "2023-09-11T03:18:56.523Z",
+        "updated_at": "2023-09-11T08:35:59.951Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "48d735fd-dc9b-4eb5-9013-c31bf6048552",
+        "name": "Outlet 3",
+        "address": "123 Oak St",
+        "city": "Chicago",
+        "state": "IL",
+        "zip_code": "60601",
+        "created_at": "2023-09-11T07:20:43.758Z",
+        "updated_at": "2023-09-11T02:38:19.461Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "5fc7fe46-d3a4-4a59-8ae8-c8ee3b4779f6",
+        "name": "Outlet 4",
+        "address": "321 Pine St",
+        "city": "Houston",
+        "state": "TX",
+        "zip_code": "77001",
+        "created_at": "2023-09-11T08:19:42.898Z",
+        "updated_at": "2023-09-10T23:35:08.384Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "edf52587-763f-4d69-a3ff-7bfae4174833",
+        "name": "Outlet 5",
+        "address": "654 Maple St",
+        "city": "Phoenix",
+        "state": "AZ",
+        "zip_code": "85001",
+        "created_at": "2023-09-11T10:23:33.945Z",
+        "updated_at": "2023-09-11T03:23:52.751Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "tool": [
+      {
+        "id": "192118c3-14e4-4503-a0ed-11c77b17a87f",
+        "name": "Tool 1",
+        "description": "A versatile tool for all your needs",
+        "availability_status": false,
+        "created_at": "2023-09-10T23:36:51.852Z",
+        "updated_at": "2023-09-10T15:21:23.650Z",
+        "outlet_id": "73162692-dc38-4898-aede-5e0d826a2ecb"
+      },
+      {
+        "id": "51559f3e-98d7-4b50-8c05-1da08be8f29a",
+        "name": "Tool 2",
+        "description": "The ultimate tool for professionals",
+        "availability_status": false,
+        "created_at": "2023-09-11T08:14:29.663Z",
+        "updated_at": "2023-09-11T01:40:23.064Z",
+        "outlet_id": "73162692-dc38-4898-aede-5e0d826a2ecb"
+      },
+      {
+        "id": "73f1e3ca-d290-40b1-8297-b2e1e10f5421",
+        "name": "Tool 3",
+        "description": "A reliable tool for everyday use",
+        "availability_status": false,
+        "created_at": "2023-09-11T03:11:41.954Z",
+        "updated_at": "2023-09-11T12:12:07.811Z",
+        "outlet_id": "edf52587-763f-4d69-a3ff-7bfae4174833"
+      },
+      {
+        "id": "a0631d16-b970-4ac2-a028-63dd97a4998f",
+        "name": "Tool 4",
+        "description": "An innovative tool with advanced features",
+        "availability_status": false,
+        "created_at": "2023-09-11T10:52:06.554Z",
+        "updated_at": "2023-09-11T01:41:40.576Z",
+        "outlet_id": "48d735fd-dc9b-4eb5-9013-c31bf6048552"
+      },
+      {
+        "id": "35517db0-0e43-4a98-acb1-5a888911a4eb",
+        "name": "Tool 5",
+        "description": "A durable tool built to last",
+        "availability_status": true,
+        "created_at": "2023-09-11T05:08:57.681Z",
+        "updated_at": "2023-09-10T22:30:01.139Z",
+        "outlet_id": "edf52587-763f-4d69-a3ff-7bfae4174833"
+      }
+    ],
+    "rental": [
+      {
+        "id": "44de1a70-d52f-4d6c-a3cd-09ccda7b4c09",
+        "rental_date": "2023-09-10T23:23:03.296Z",
+        "return_date": "2023-09-11T03:14:34.377Z",
+        "created_at": "2023-09-10T18:43:36.850Z",
+        "updated_at": "2023-09-11T13:48:03.544Z",
+        "tool_id": "a0631d16-b970-4ac2-a028-63dd97a4998f",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0725fdee-e85b-4607-8861-aba6fb1c6b18",
+        "rental_date": "2023-09-11T09:42:40.926Z",
+        "return_date": "2023-09-10T19:16:44.911Z",
+        "created_at": "2023-09-11T05:21:12.663Z",
+        "updated_at": "2023-09-10T21:15:04.508Z",
+        "tool_id": "192118c3-14e4-4503-a0ed-11c77b17a87f",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4a1c6693-4e8c-4ebb-91a7-32a3a5dca28e",
+        "rental_date": "2023-09-11T11:52:59.300Z",
+        "return_date": "2023-09-11T07:24:24.794Z",
+        "created_at": "2023-09-11T04:02:34.475Z",
+        "updated_at": "2023-09-11T09:08:18.649Z",
+        "tool_id": "35517db0-0e43-4a98-acb1-5a888911a4eb",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "795ea7cf-7b9a-4583-93b5-f9062616aec0",
+        "rental_date": "2023-09-11T07:00:26.913Z",
+        "return_date": "2023-09-11T11:18:43.053Z",
+        "created_at": "2023-09-11T10:52:06.589Z",
+        "updated_at": "2023-09-11T10:29:37.345Z",
+        "tool_id": "51559f3e-98d7-4b50-8c05-1da08be8f29a",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e3bdae16-996a-4caa-b1bb-b80a5d60efee",
+        "rental_date": "2023-09-11T10:03:33.682Z",
+        "return_date": "2023-09-11T11:42:38.307Z",
+        "created_at": "2023-09-11T02:53:41.156Z",
+        "updated_at": "2023-09-11T09:15:50.683Z",
+        "tool_id": "a0631d16-b970-4ac2-a028-63dd97a4998f",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "37b44a81-5e2a-4ca7-bd26-af56bd18bac3",
+        "email": "Sonya_Weissnat@gmail.com",
+        "firstName": "Janick",
+        "lastName": "Konopelski",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/91206736",
+        "tenantId": null
+      },
+      {
+        "reference": "1b2bf23d-5e48-473b-8ba3-be4acb8d4568",
+        "email": "Skylar.Parisian48@gmail.com",
+        "firstName": "Bryon",
+        "lastName": "Kuphal",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/93331011",
+        "tenantId": null
+      },
+      {
+        "reference": "881eb125-f7b4-4e03-a0d5-65b95333d16a",
+        "email": "Theresia_Roob@gmail.com",
+        "firstName": "Dock",
+        "lastName": "Tromp",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/455.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "bf45a234-7e64-488a-88dd-5dfb5640c91a",
+        "email": "Rae86@yahoo.com",
+        "firstName": "Arthur",
+        "lastName": "Block",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/270.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "c70dfc77-c59f-4d8f-8c26-187ed33b27f7",
+        "email": "Fletcher75@hotmail.com",
+        "firstName": "Ernest",
+        "lastName": "Strosin",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/35674070",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "customer_profile": [
+      {
+        "id": "5e7c8225-184e-465c-a67b-1a70d2c2b4d0",
+        "address": "123 Main St",
+        "city": "New York",
+        "state": "NY",
+        "zip_code": "10001",
+        "created_at": "2023-09-11T07:32:45.365Z",
+        "updated_at": "2023-09-11T08:49:05.561Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e70b90a4-adb4-44e7-9234-b36d3c7b3286",
+        "address": "456 Elm St",
+        "city": "Los Angeles",
+        "state": "CA",
+        "zip_code": "90001",
+        "created_at": "2023-09-11T02:26:50.653Z",
+        "updated_at": "2023-09-11T04:23:28.224Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1bf33c68-5cd4-4d0e-8ee6-9a298ad2dc1e",
+        "address": "789 Oak St",
+        "city": "Chicago",
+        "state": "IL",
+        "zip_code": "60601",
+        "created_at": "2023-09-11T05:01:55.787Z",
+        "updated_at": "2023-09-11T11:01:34.216Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a2e45557-3b6d-4906-88fa-7d2aa161d1b0",
+        "address": "321 Maple St",
+        "city": "Houston",
+        "state": "TX",
+        "zip_code": "77001",
+        "created_at": "2023-09-11T11:26:36.448Z",
+        "updated_at": "2023-09-10T20:44:58.309Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "66fdfab0-aa46-4784-b450-af4886fcfd61",
+        "address": "654 Pine St",
+        "city": "Philadelphia",
+        "state": "PA",
+        "zip_code": "19101",
+        "created_at": "2023-09-11T02:36:53.178Z",
+        "updated_at": "2023-09-11T12:46:59.176Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "outlet": [
+      {
+        "id": "d5ab623c-7312-4e9e-9c73-0f14ffe90522",
+        "name": "Outlet 1",
+        "address": "789 Main St",
+        "city": "New York",
+        "state": "NY",
+        "zip_code": "10001",
+        "created_at": "2023-09-10T19:25:52.566Z",
+        "updated_at": "2023-09-11T08:08:34.947Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "6daa5720-262f-46fc-a269-76002451a0e4",
+        "name": "Outlet 2",
+        "address": "456 Elm St",
+        "city": "Los Angeles",
+        "state": "CA",
+        "zip_code": "90001",
+        "created_at": "2023-09-11T09:49:20.225Z",
+        "updated_at": "2023-09-10T15:53:54.176Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "5e5105ac-0f1d-41bd-beb6-d1e786414025",
+        "name": "Outlet 3",
+        "address": "123 Oak St",
+        "city": "Chicago",
+        "state": "IL",
+        "zip_code": "60601",
+        "created_at": "2023-09-10T23:43:33.789Z",
+        "updated_at": "2023-09-11T03:50:54.635Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "8a4404f3-660c-4efe-a35d-ad48e88e5414",
+        "name": "Outlet 4",
+        "address": "321 Maple St",
+        "city": "Houston",
+        "state": "TX",
+        "zip_code": "77001",
+        "created_at": "2023-09-10T17:28:07.378Z",
+        "updated_at": "2023-09-10T22:30:13.592Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "f90bdf7f-b232-4a78-92dc-70d830cd0c06",
+        "name": "Outlet 5",
+        "address": "654 Pine St",
+        "city": "Philadelphia",
+        "state": "PA",
+        "zip_code": "19101",
+        "created_at": "2023-09-11T07:47:56.157Z",
+        "updated_at": "2023-09-10T14:47:56.801Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "tool": [
+      {
+        "id": "466ae9fd-a992-4975-9801-cc47f856395c",
+        "name": "Tool 1",
+        "description": "A versatile tool for various tasks",
+        "availability_status": false,
+        "created_at": "2023-09-10T19:13:42.675Z",
+        "updated_at": "2023-09-11T10:43:32.006Z",
+        "outlet_id": "d5ab623c-7312-4e9e-9c73-0f14ffe90522"
+      },
+      {
+        "id": "1a9f0bcd-ed03-4e1d-a7d7-0edb6a460792",
+        "name": "Tool 2",
+        "description": "An essential tool for professionals",
+        "availability_status": true,
+        "created_at": "2023-09-11T00:26:42.680Z",
+        "updated_at": "2023-09-11T01:24:57.294Z",
+        "outlet_id": "8a4404f3-660c-4efe-a35d-ad48e88e5414"
+      },
+      {
+        "id": "0d7ae868-a688-4ade-8ce1-b158e6a059fc",
+        "name": "Tool 3",
+        "description": "A reliable tool for everyday use",
+        "availability_status": true,
+        "created_at": "2023-09-10T21:38:58.702Z",
+        "updated_at": "2023-09-10T21:44:21.391Z",
+        "outlet_id": "f90bdf7f-b232-4a78-92dc-70d830cd0c06"
+      },
+      {
+        "id": "6b367f2f-3e3f-4d5c-b9e2-ea48e9b22625",
+        "name": "Tool 4",
+        "description": "A high-quality tool built to last",
+        "availability_status": false,
+        "created_at": "2023-09-10T15:59:30.504Z",
+        "updated_at": "2023-09-10T15:27:25.482Z",
+        "outlet_id": "f90bdf7f-b232-4a78-92dc-70d830cd0c06"
+      },
+      {
+        "id": "881aa891-9fe2-46a2-9f9c-fefe7fda9516",
+        "name": "Tool 5",
+        "description": "An innovative tool with advanced features",
+        "availability_status": false,
+        "created_at": "2023-09-11T07:30:52.521Z",
+        "updated_at": "2023-09-10T15:31:43.003Z",
+        "outlet_id": "6daa5720-262f-46fc-a269-76002451a0e4"
+      }
+    ],
+    "rental": [
+      {
+        "id": "7fa2cb09-2b38-49c0-9f25-2b2391979e3c",
+        "rental_date": "2023-09-11T10:46:20.044Z",
+        "return_date": "2023-09-11T09:30:15.774Z",
+        "created_at": "2023-09-11T08:00:20.201Z",
+        "updated_at": "2023-09-11T05:36:12.388Z",
+        "tool_id": "0d7ae868-a688-4ade-8ce1-b158e6a059fc",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "814f5dc9-26af-431f-a726-045fabd275e6",
+        "rental_date": "2023-09-11T07:56:47.022Z",
+        "return_date": "2023-09-10T22:42:35.487Z",
+        "created_at": "2023-09-11T02:56:26.969Z",
+        "updated_at": "2023-09-10T22:13:37.267Z",
+        "tool_id": "6b367f2f-3e3f-4d5c-b9e2-ea48e9b22625",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "957c9200-4447-461c-9742-9ef79bc50868",
+        "rental_date": "2023-09-11T02:59:53.984Z",
+        "return_date": "2023-09-11T04:07:01.612Z",
+        "created_at": "2023-09-11T06:25:06.616Z",
+        "updated_at": "2023-09-10T18:36:19.918Z",
+        "tool_id": "881aa891-9fe2-46a2-9f9c-fefe7fda9516",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6c8d24c5-52e3-4f48-962f-8975f14ec22b",
+        "rental_date": "2023-09-10T23:46:19.246Z",
+        "return_date": "2023-09-11T04:00:19.990Z",
+        "created_at": "2023-09-10T18:09:19.935Z",
+        "updated_at": "2023-09-11T10:07:57.090Z",
+        "tool_id": "881aa891-9fe2-46a2-9f9c-fefe7fda9516",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "232257b3-4857-47f0-8b52-cf564880af15",
+        "rental_date": "2023-09-11T08:50:35.707Z",
+        "return_date": "2023-09-11T00:33:48.084Z",
+        "created_at": "2023-09-10T16:17:22.328Z",
+        "updated_at": "2023-09-11T14:17:11.303Z",
+        "tool_id": "6b367f2f-3e3f-4d5c-b9e2-ea48e9b22625",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "6cc7aaaa-1d3e-4c04-9183-1ed9bd1c3396",
+        "email": "Irma31@yahoo.com",
+        "firstName": "Lawson",
+        "lastName": "Jerde",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/26967268",
+        "tenantId": null
+      },
+      {
+        "reference": "5214f19d-702d-4360-8f12-e07b0b61ad39",
+        "email": "Erika64@gmail.com",
+        "firstName": "Giovanna",
+        "lastName": "Harvey",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/17155768",
+        "tenantId": null
+      },
+      {
+        "reference": "2e14e7e6-f2ba-44c6-8048-5f6f55edfdc2",
+        "email": "Dayne.Hilpert@hotmail.com",
+        "firstName": "Jeffery",
+        "lastName": "Ferry",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/292.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "5d85e6c5-3e1d-4f39-82d4-b02ee8995ec1",
+        "email": "Dillan_Windler@gmail.com",
+        "firstName": "Garnet",
+        "lastName": "Rogahn",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/44042706",
+        "tenantId": null
+      },
+      {
+        "reference": "a2d867d2-fbb9-4fbf-9373-565af8e4b76f",
+        "email": "Zella66@yahoo.com",
+        "firstName": "Aiden",
+        "lastName": "Johnston-Jones",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/958.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "customer_profile": [
+      {
+        "id": "88f59d19-4778-4397-be13-ec662e0aa8b0",
+        "address": "123 Main St",
+        "city": "New York",
+        "state": "NY",
+        "zip_code": "10001",
+        "created_at": "2023-09-11T11:57:40.508Z",
+        "updated_at": "2023-09-11T14:01:08.105Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fbc8ae74-4a35-4809-8e52-e850dc7376a5",
+        "address": "456 Elm St",
+        "city": "Los Angeles",
+        "state": "CA",
+        "zip_code": "90001",
+        "created_at": "2023-09-11T09:55:35.887Z",
+        "updated_at": "2023-09-11T00:18:34.285Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2d99319c-e09d-4e60-9123-e6b41a24a6ee",
+        "address": "789 Oak St",
+        "city": "Chicago",
+        "state": "IL",
+        "zip_code": "60601",
+        "created_at": "2023-09-11T06:16:23.579Z",
+        "updated_at": "2023-09-10T22:27:03.324Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "baea7ad2-6124-4dbf-8df5-874358c36440",
+        "address": "321 Pine St",
+        "city": "Houston",
+        "state": "TX",
+        "zip_code": "77001",
+        "created_at": "2023-09-10T22:22:14.997Z",
+        "updated_at": "2023-09-11T12:47:27.309Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "72df3ebd-cb0f-4c9f-a20b-892cb7d07292",
+        "address": "654 Maple St",
+        "city": "Philadelphia",
+        "state": "PA",
+        "zip_code": "19101",
+        "created_at": "2023-09-10T22:01:52.833Z",
+        "updated_at": "2023-09-10T18:30:25.984Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "outlet": [
+      {
+        "id": "6897f0e5-4fa2-4130-9210-f4f4b0f7ff47",
+        "name": "Outlet A",
+        "address": "789 Main St",
+        "city": "New York",
+        "state": "NY",
+        "zip_code": "10001",
+        "created_at": "2023-09-11T11:15:42.299Z",
+        "updated_at": "2023-09-11T13:34:58.895Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "187efdca-a82d-4880-b701-f5e98cea3568",
+        "name": "Outlet B",
+        "address": "456 Elm St",
+        "city": "Los Angeles",
+        "state": "CA",
+        "zip_code": "90001",
+        "created_at": "2023-09-10T20:22:36.492Z",
+        "updated_at": "2023-09-10T16:49:28.660Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "e6f25429-3e19-4813-94ba-1e3a247f5cff",
+        "name": "Outlet C",
+        "address": "123 Oak St",
+        "city": "Chicago",
+        "state": "IL",
+        "zip_code": "60601",
+        "created_at": "2023-09-10T22:26:01.645Z",
+        "updated_at": "2023-09-11T12:08:26.977Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "e1967642-87e3-4aa6-b207-9ddec7d388b3",
+        "name": "Outlet D",
+        "address": "321 Pine St",
+        "city": "Houston",
+        "state": "TX",
+        "zip_code": "77001",
+        "created_at": "2023-09-10T18:47:58.720Z",
+        "updated_at": "2023-09-10T19:44:53.359Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "3e9fa84c-30f4-4b65-bc3c-64be9d6be0a8",
+        "name": "Outlet E",
+        "address": "654 Maple St",
+        "city": "Philadelphia",
+        "state": "PA",
+        "zip_code": "19101",
+        "created_at": "2023-09-11T06:32:19.171Z",
+        "updated_at": "2023-09-10T20:38:33.637Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "tool": [
+      {
+        "id": "4f73c07d-88ca-4c49-b504-316e22f7087f",
+        "name": "Tool A",
+        "description": "A versatile tool for various tasks",
+        "availability_status": false,
+        "created_at": "2023-09-11T04:29:55.589Z",
+        "updated_at": "2023-09-10T19:43:00.959Z",
+        "outlet_id": "e1967642-87e3-4aa6-b207-9ddec7d388b3"
+      },
+      {
+        "id": "122cfaf9-a361-45da-a52f-ce83699ecd0d",
+        "name": "Tool B",
+        "description": "An essential tool for professionals",
+        "availability_status": true,
+        "created_at": "2023-09-11T12:09:42.921Z",
+        "updated_at": "2023-09-10T23:47:22.749Z",
+        "outlet_id": "6897f0e5-4fa2-4130-9210-f4f4b0f7ff47"
+      },
+      {
+        "id": "fdfc68f4-789e-45ee-a80c-3c8235c44f42",
+        "name": "Tool C",
+        "description": "A reliable tool for everyday use",
+        "availability_status": true,
+        "created_at": "2023-09-11T05:04:10.150Z",
+        "updated_at": "2023-09-11T02:55:20.806Z",
+        "outlet_id": "6897f0e5-4fa2-4130-9210-f4f4b0f7ff47"
+      },
+      {
+        "id": "d2d126f1-2df3-4865-aff7-a9ee4b091262",
+        "name": "Tool D",
+        "description": "A high-quality tool with advanced features",
+        "availability_status": false,
+        "created_at": "2023-09-11T00:19:47.521Z",
+        "updated_at": "2023-09-11T13:42:12.942Z",
+        "outlet_id": "187efdca-a82d-4880-b701-f5e98cea3568"
+      },
+      {
+        "id": "0e7ff932-ecce-4156-9986-05f8bb9db1fd",
+        "name": "Tool E",
+        "description": "A durable tool built to last",
+        "availability_status": false,
+        "created_at": "2023-09-11T05:46:56.673Z",
+        "updated_at": "2023-09-10T21:46:57.345Z",
+        "outlet_id": "6897f0e5-4fa2-4130-9210-f4f4b0f7ff47"
+      }
+    ],
+    "rental": [
+      {
+        "id": "888f3182-d5e6-4a94-a69c-aa12c586fb84",
+        "rental_date": "2023-09-11T00:32:01.285Z",
+        "return_date": "2023-09-11T06:26:03.474Z",
+        "created_at": "2023-09-11T01:04:08.077Z",
+        "updated_at": "2023-09-11T13:15:29.896Z",
+        "tool_id": "122cfaf9-a361-45da-a52f-ce83699ecd0d",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0b24ed8a-19ea-4cb2-aa42-9d31c70dbb84",
+        "rental_date": "2023-09-11T05:18:40.493Z",
+        "return_date": "2023-09-11T07:49:41.926Z",
+        "created_at": "2023-09-11T04:31:41.200Z",
+        "updated_at": "2023-09-10T17:00:27.550Z",
+        "tool_id": "d2d126f1-2df3-4865-aff7-a9ee4b091262",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "723a6ae6-6f99-42d2-81c3-45be6fe6ceae",
+        "rental_date": "2023-09-11T07:35:45.379Z",
+        "return_date": "2023-09-11T05:31:16.415Z",
+        "created_at": "2023-09-11T04:48:38.407Z",
+        "updated_at": "2023-09-10T20:09:35.323Z",
+        "tool_id": "4f73c07d-88ca-4c49-b504-316e22f7087f",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "db861b60-24fb-4be9-960c-3338652fc01f",
+        "rental_date": "2023-09-10T16:47:37.219Z",
+        "return_date": "2023-09-11T00:11:29.180Z",
+        "created_at": "2023-09-11T00:15:28.367Z",
+        "updated_at": "2023-09-11T04:34:51.954Z",
+        "tool_id": "d2d126f1-2df3-4865-aff7-a9ee4b091262",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e6b2dc3a-8b13-44e7-bb0a-ab7d03a250c3",
+        "rental_date": "2023-09-11T10:38:27.547Z",
+        "return_date": "2023-09-11T06:58:05.448Z",
+        "created_at": "2023-09-11T08:52:16.335Z",
+        "updated_at": "2023-09-10T21:50:55.811Z",
+        "tool_id": "fdfc68f4-789e-45ee-a80c-3c8235c44f42",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "be09b2a7-9111-49fb-a676-84ffd956a81a",
+        "email": "Rowland29@hotmail.com",
+        "firstName": "Kendall",
+        "lastName": "Herzog",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/575.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "20364498-cc07-469b-97bd-a841178a4960",
+        "email": "Verla_Johns@gmail.com",
+        "firstName": "Kamron",
+        "lastName": "Wolf",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1481273",
+        "tenantId": null
+      },
+      {
+        "reference": "2364805e-9963-49cb-b36c-ed2f75fee60a",
+        "email": "Ola.Lesch@gmail.com",
+        "firstName": "Ryder",
+        "lastName": "Vandervort",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/81877412",
+        "tenantId": null
+      },
+      {
+        "reference": "0bd6ef2c-8010-425f-80be-2c2dd66ceb0f",
+        "email": "Eino.Schiller65@yahoo.com",
+        "firstName": "Mavis",
+        "lastName": "Hoeger",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/26810857",
+        "tenantId": null
+      },
+      {
+        "reference": "9541da37-009a-443f-a4c6-e7a09947c895",
+        "email": "Maverick.Turner31@hotmail.com",
+        "firstName": "Jayne",
+        "lastName": "Becker",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/485.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "customer_profile": [
+      {
+        "id": "0ff2d95d-e4e9-4f52-9838-fb484ffe4772",
+        "address": "123 Main St",
+        "city": "New York",
+        "state": "NY",
+        "zip_code": "10001",
+        "created_at": "2023-09-10T16:01:07.194Z",
+        "updated_at": "2023-09-10T21:24:09.355Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9817162b-b874-4124-84d1-d55d5ba627a7",
+        "address": "456 Elm St",
+        "city": "Los Angeles",
+        "state": "CA",
+        "zip_code": "90001",
+        "created_at": "2023-09-11T07:21:27.792Z",
+        "updated_at": "2023-09-10T15:16:20.378Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d63425f3-197d-4433-aecc-bea5417411f5",
+        "address": "789 Oak St",
+        "city": "Chicago",
+        "state": "IL",
+        "zip_code": "60601",
+        "created_at": "2023-09-10T23:24:25.786Z",
+        "updated_at": "2023-09-11T12:27:34.296Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "74482795-c22c-4cdf-8ab5-b5cdac90e001",
+        "address": "321 Maple St",
+        "city": "Houston",
+        "state": "TX",
+        "zip_code": "77001",
+        "created_at": "2023-09-11T13:43:32.337Z",
+        "updated_at": "2023-09-10T20:15:41.613Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "05b96c6c-29d0-40f7-98b9-3d2c7605172f",
+        "address": "654 Pine St",
+        "city": "Phoenix",
+        "state": "AZ",
+        "zip_code": "85001",
+        "created_at": "2023-09-10T23:38:49.402Z",
+        "updated_at": "2023-09-11T00:10:33.715Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "outlet": [
+      {
+        "id": "f680d1fb-d64d-4541-9b27-a19f473cddf3",
+        "name": "Outlet A",
+        "address": "789 Main St",
+        "city": "New York",
+        "state": "NY",
+        "zip_code": "10001",
+        "created_at": "2023-09-11T05:47:08.463Z",
+        "updated_at": "2023-09-10T16:20:57.084Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "fccccf8a-7fd0-4452-8da4-ee633b92017e",
+        "name": "Outlet B",
+        "address": "456 Elm St",
+        "city": "Los Angeles",
+        "state": "CA",
+        "zip_code": "90001",
+        "created_at": "2023-09-11T01:25:35.035Z",
+        "updated_at": "2023-09-11T06:52:32.147Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "732b30a7-43e7-4ab1-b951-7472caf7d4bc",
+        "name": "Outlet C",
+        "address": "123 Oak St",
+        "city": "Chicago",
+        "state": "IL",
+        "zip_code": "60601",
+        "created_at": "2023-09-10T17:26:42.809Z",
+        "updated_at": "2023-09-11T02:10:21.496Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "5c4d46d1-4e34-4c3b-9c71-7fedd0ba9818",
+        "name": "Outlet D",
+        "address": "321 Maple St",
+        "city": "Houston",
+        "state": "TX",
+        "zip_code": "77001",
+        "created_at": "2023-09-10T17:55:20.809Z",
+        "updated_at": "2023-09-11T01:07:10.108Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "70d30951-b4e1-4176-aec8-316b5dad2595",
+        "name": "Outlet E",
+        "address": "654 Pine St",
+        "city": "Phoenix",
+        "state": "AZ",
+        "zip_code": "85001",
+        "created_at": "2023-09-11T12:34:21.376Z",
+        "updated_at": "2023-09-11T07:51:30.919Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "tool": [
+      {
+        "id": "5fffe71d-0a60-4d41-ae11-9941dc9a23ec",
+        "name": "Tool 1",
+        "description": "A versatile tool for all your needs",
+        "availability_status": true,
+        "created_at": "2023-09-11T03:14:24.335Z",
+        "updated_at": "2023-09-10T15:22:30.328Z",
+        "outlet_id": "732b30a7-43e7-4ab1-b951-7472caf7d4bc"
+      },
+      {
+        "id": "ce443b3c-9c17-4d8d-94b0-bc34c6e241a2",
+        "name": "Tool 2",
+        "description": "An essential tool for professionals",
+        "availability_status": false,
+        "created_at": "2023-09-10T18:28:44.501Z",
+        "updated_at": "2023-09-10T21:29:11.393Z",
+        "outlet_id": "5c4d46d1-4e34-4c3b-9c71-7fedd0ba9818"
+      },
+      {
+        "id": "b5aea39a-18dd-477b-a3ae-11d619e400cf",
+        "name": "Tool 3",
+        "description": "A reliable tool for everyday tasks",
+        "availability_status": true,
+        "created_at": "2023-09-11T13:06:42.892Z",
+        "updated_at": "2023-09-11T10:49:11.376Z",
+        "outlet_id": "70d30951-b4e1-4176-aec8-316b5dad2595"
+      },
+      {
+        "id": "137f6f65-6525-462f-b739-dfd093038dab",
+        "name": "Tool 4",
+        "description": "A high-quality tool built to last",
+        "availability_status": false,
+        "created_at": "2023-09-11T00:19:50.232Z",
+        "updated_at": "2023-09-11T04:44:16.898Z",
+        "outlet_id": "732b30a7-43e7-4ab1-b951-7472caf7d4bc"
+      },
+      {
+        "id": "9b73b32e-bb8e-4cd4-bf1a-23e203ce666c",
+        "name": "Tool 5",
+        "description": "A user-friendly tool with advanced features",
+        "availability_status": false,
+        "created_at": "2023-09-11T08:26:44.590Z",
+        "updated_at": "2023-09-11T05:38:15.955Z",
+        "outlet_id": "f680d1fb-d64d-4541-9b27-a19f473cddf3"
+      }
+    ],
+    "rental": [
+      {
+        "id": "484f957e-d8d7-462e-ad2f-443c2d0e8ae8",
+        "rental_date": "2023-09-11T01:32:22.262Z",
+        "return_date": "2023-09-10T18:19:33.361Z",
+        "created_at": "2023-09-11T03:54:15.751Z",
+        "updated_at": "2023-09-11T14:17:39.820Z",
+        "tool_id": "5fffe71d-0a60-4d41-ae11-9941dc9a23ec",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c531ed66-4bd8-45d6-9df4-cc6ad8f0ffd3",
+        "rental_date": "2023-09-11T12:10:36.890Z",
+        "return_date": "2023-09-11T07:59:13.282Z",
+        "created_at": "2023-09-11T11:24:20.145Z",
+        "updated_at": "2023-09-11T09:51:22.798Z",
+        "tool_id": "9b73b32e-bb8e-4cd4-bf1a-23e203ce666c",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c81b96ec-cdf9-4873-bb3c-90ea8e9e206f",
+        "rental_date": "2023-09-10T16:27:10.685Z",
+        "return_date": "2023-09-11T00:00:54.807Z",
+        "created_at": "2023-09-11T07:29:40.969Z",
+        "updated_at": "2023-09-10T23:03:17.360Z",
+        "tool_id": "ce443b3c-9c17-4d8d-94b0-bc34c6e241a2",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "13dcb812-8514-446c-8d96-7ba1e6f4f434",
+        "rental_date": "2023-09-11T11:45:39.542Z",
+        "return_date": "2023-09-11T12:48:24.505Z",
+        "created_at": "2023-09-11T02:28:10.171Z",
+        "updated_at": "2023-09-10T19:33:16.830Z",
+        "tool_id": "9b73b32e-bb8e-4cd4-bf1a-23e203ce666c",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9f6de356-c0d5-4e00-ae52-b663dd79c05b",
+        "rental_date": "2023-09-11T03:01:31.323Z",
+        "return_date": "2023-09-10T18:20:30.087Z",
+        "created_at": "2023-09-10T22:36:42.783Z",
+        "updated_at": "2023-09-10T17:46:19.352Z",
+        "tool_id": "137f6f65-6525-462f-b739-dfd093038dab",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "a0e306c1-78d8-4b9d-8aed-9e33ca357b65",
+        "email": "Norris61@yahoo.com",
+        "firstName": "Alysa",
+        "lastName": "Jast",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/47246686",
+        "tenantId": null
+      },
+      {
+        "reference": "b3d8bc6c-0596-48e0-86b2-c45966e71887",
+        "email": "Leonora70@gmail.com",
+        "firstName": "Wilson",
+        "lastName": "Waters",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1081.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "1c5ab950-895b-49be-a972-16c799782a4e",
+        "email": "Enrico.Emmerich@yahoo.com",
+        "firstName": "Herminia",
+        "lastName": "Gerhold",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/27319494",
+        "tenantId": null
+      },
+      {
+        "reference": "ebef1df9-93c1-474e-8faf-b17530664aeb",
+        "email": "Julio88@hotmail.com",
+        "firstName": "Trisha",
+        "lastName": "Fahey",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1003.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "fcbb47ca-ff67-494b-8cf3-e7a13145761d",
+        "email": "Aida16@hotmail.com",
+        "firstName": "Earline",
+        "lastName": "Quigley-Farrell",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/767.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "customer_profile": [
+      {
+        "id": "7f3e5359-d15a-44f2-9c25-94ce1083bb24",
+        "address": "123 Main St",
+        "city": "New York",
+        "state": "NY",
+        "zip_code": "10001",
+        "created_at": "2023-09-11T11:51:44.296Z",
+        "updated_at": "2023-09-11T06:42:28.781Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ba5b0248-5c68-485c-9b2b-cf170107aaf8",
+        "address": "456 Elm St",
+        "city": "Los Angeles",
+        "state": "CA",
+        "zip_code": "90001",
+        "created_at": "2023-09-10T19:01:46.383Z",
+        "updated_at": "2023-09-11T09:44:27.423Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "27e7718d-f086-4e8e-8865-0e7d736e1005",
+        "address": "789 Oak St",
+        "city": "Chicago",
+        "state": "IL",
+        "zip_code": "60601",
+        "created_at": "2023-09-10T17:05:00.526Z",
+        "updated_at": "2023-09-11T06:16:28.561Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "cca7f9c6-e845-4a6a-825b-cea2aa4c6941",
+        "address": "321 Pine St",
+        "city": "Houston",
+        "state": "TX",
+        "zip_code": "77001",
+        "created_at": "2023-09-11T12:52:45.188Z",
+        "updated_at": "2023-09-10T23:07:05.043Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5ffa5370-a584-422f-95fa-837e259451fe",
+        "address": "654 Maple St",
+        "city": "Phoenix",
+        "state": "AZ",
+        "zip_code": "85001",
+        "created_at": "2023-09-11T12:19:41.579Z",
+        "updated_at": "2023-09-10T18:22:11.069Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "outlet": [
+      {
+        "id": "065a5316-46b0-4671-8f79-65e655817ad9",
+        "name": "Outlet 1",
+        "address": "789 Main St",
+        "city": "New York",
+        "state": "NY",
+        "zip_code": "10001",
+        "created_at": "2023-09-10T21:25:58.097Z",
+        "updated_at": "2023-09-11T04:07:18.832Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "49a5aaaa-7179-4de6-801d-5e5dc956fb9e",
+        "name": "Outlet 2",
+        "address": "456 Elm St",
+        "city": "Los Angeles",
+        "state": "CA",
+        "zip_code": "90001",
+        "created_at": "2023-09-11T11:16:49.372Z",
+        "updated_at": "2023-09-11T07:55:52.062Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "274f3e17-821d-4c53-84a7-cc8219377396",
+        "name": "Outlet 3",
+        "address": "123 Oak St",
+        "city": "Chicago",
+        "state": "IL",
+        "zip_code": "60601",
+        "created_at": "2023-09-11T05:56:26.626Z",
+        "updated_at": "2023-09-11T05:58:17.570Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "8880f693-0cce-4cba-aaac-a25366c59981",
+        "name": "Outlet 4",
+        "address": "321 Pine St",
+        "city": "Houston",
+        "state": "TX",
+        "zip_code": "77001",
+        "created_at": "2023-09-10T15:16:46.404Z",
+        "updated_at": "2023-09-11T06:47:52.107Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "ca421454-6395-4c98-9c39-30c09f74263d",
+        "name": "Outlet 5",
+        "address": "654 Maple St",
+        "city": "Phoenix",
+        "state": "AZ",
+        "zip_code": "85001",
+        "created_at": "2023-09-11T07:49:14.417Z",
+        "updated_at": "2023-09-10T17:04:26.896Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "tool": [
+      {
+        "id": "98bfbd8d-c23a-44a6-a98a-60d4c2f1a979",
+        "name": "Tool 1",
+        "description": "A versatile tool for various tasks",
+        "availability_status": true,
+        "created_at": "2023-09-11T14:40:48.018Z",
+        "updated_at": "2023-09-11T00:49:30.424Z",
+        "outlet_id": "ca421454-6395-4c98-9c39-30c09f74263d"
+      },
+      {
+        "id": "fb2c7c84-a80b-4b27-b8df-df77a9b3b9c8",
+        "name": "Tool 2",
+        "description": "An essential tool for professionals",
+        "availability_status": true,
+        "created_at": "2023-09-10T16:30:09.567Z",
+        "updated_at": "2023-09-11T02:47:05.108Z",
+        "outlet_id": "065a5316-46b0-4671-8f79-65e655817ad9"
+      },
+      {
+        "id": "39300f81-6115-42ba-8363-53cf6ff0d442",
+        "name": "Tool 3",
+        "description": "A reliable tool for everyday use",
+        "availability_status": false,
+        "created_at": "2023-09-10T18:00:43.983Z",
+        "updated_at": "2023-09-11T09:44:02.578Z",
+        "outlet_id": "49a5aaaa-7179-4de6-801d-5e5dc956fb9e"
+      },
+      {
+        "id": "d3d563dc-e381-431d-b01c-872e6393461a",
+        "name": "Tool 4",
+        "description": "A high-quality tool for precision work",
+        "availability_status": false,
+        "created_at": "2023-09-11T07:40:57.663Z",
+        "updated_at": "2023-09-11T04:15:30.339Z",
+        "outlet_id": "ca421454-6395-4c98-9c39-30c09f74263d"
+      },
+      {
+        "id": "fadef968-7c36-468e-a74a-f66ed1bcda00",
+        "name": "Tool 5",
+        "description": "An innovative tool for efficiency",
+        "availability_status": true,
+        "created_at": "2023-09-11T11:31:19.361Z",
+        "updated_at": "2023-09-10T17:45:37.686Z",
+        "outlet_id": "49a5aaaa-7179-4de6-801d-5e5dc956fb9e"
+      }
+    ],
+    "rental": [
+      {
+        "id": "d1aa9870-c1c2-449d-8ba2-1fdfa70b3d0d",
+        "rental_date": "2023-09-10T15:08:41.842Z",
+        "return_date": "2023-09-11T04:20:02.327Z",
+        "created_at": "2023-09-11T11:07:33.098Z",
+        "updated_at": "2023-09-11T10:29:20.260Z",
+        "tool_id": "98bfbd8d-c23a-44a6-a98a-60d4c2f1a979",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7f849d38-3f04-49ed-9f0e-52f1e04ae108",
+        "rental_date": "2023-09-10T21:31:08.355Z",
+        "return_date": "2023-09-10T18:24:01.982Z",
+        "created_at": "2023-09-11T10:37:17.892Z",
+        "updated_at": "2023-09-10T17:03:19.506Z",
+        "tool_id": "fadef968-7c36-468e-a74a-f66ed1bcda00",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d4825cd3-7d87-4555-8d0b-7626b785253f",
+        "rental_date": "2023-09-11T14:02:42.077Z",
+        "return_date": "2023-09-11T08:29:47.800Z",
+        "created_at": "2023-09-11T13:00:42.885Z",
+        "updated_at": "2023-09-11T14:11:22.967Z",
+        "tool_id": "98bfbd8d-c23a-44a6-a98a-60d4c2f1a979",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "bec67f0d-820f-49fb-90d9-7d161a460f62",
+        "rental_date": "2023-09-10T23:56:33.590Z",
+        "return_date": "2023-09-11T12:01:47.059Z",
+        "created_at": "2023-09-11T04:46:58.205Z",
+        "updated_at": "2023-09-11T04:17:30.139Z",
+        "tool_id": "fadef968-7c36-468e-a74a-f66ed1bcda00",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "08371895-9861-436d-bb8b-ec440aaee2c3",
+        "rental_date": "2023-09-11T07:27:34.652Z",
+        "return_date": "2023-09-10T23:44:11.000Z",
+        "created_at": "2023-09-11T02:19:29.397Z",
+        "updated_at": "2023-09-10T18:05:22.950Z",
+        "tool_id": "39300f81-6115-42ba-8363-53cf6ff0d442",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "c069153d-96c8-471c-9429-105135f635c1",
+        "email": "Kameron_Spencer0@gmail.com",
+        "firstName": "Torrey",
+        "lastName": "Hoeger",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/95407637",
+        "tenantId": null
+      },
+      {
+        "reference": "88b21e85-16d7-4f29-8b9f-02937380bb18",
+        "email": "Jaeden.Wiza56@hotmail.com",
+        "firstName": "Jadyn",
+        "lastName": "Torphy",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/58122185",
+        "tenantId": null
+      },
+      {
+        "reference": "3e418f90-b487-48aa-ad29-ae8b06c6c98c",
+        "email": "Jennyfer2@hotmail.com",
+        "firstName": "Eladio",
+        "lastName": "Mertz",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/16736980",
+        "tenantId": null
+      },
+      {
+        "reference": "44998c5f-508f-4ad6-a576-214bc3a52731",
+        "email": "Sabryna_Bechtelar@gmail.com",
+        "firstName": "Deion",
+        "lastName": "Johns",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/354.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "ada4098b-32c6-4d93-a369-56a4772d3ee3",
+        "email": "Eunice.Predovic11@gmail.com",
+        "firstName": "Anibal",
+        "lastName": "Beahan",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/786.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "customer_profile": [
+      {
+        "id": "44a1917e-7cad-43d6-83c4-1fdf02fbf3f8",
+        "address": "123 Main St",
+        "city": "New York",
+        "state": "NY",
+        "zip_code": "10001",
+        "created_at": "2023-09-11T13:32:54.404Z",
+        "updated_at": "2023-09-11T07:11:13.227Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f4aba1ec-34f1-4d43-bf89-238207421d2f",
+        "address": "456 Elm St",
+        "city": "Los Angeles",
+        "state": "CA",
+        "zip_code": "90001",
+        "created_at": "2023-09-11T12:44:33.107Z",
+        "updated_at": "2023-09-11T04:36:51.582Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2b268171-afc0-4e86-ab0d-7a5881ce6809",
+        "address": "789 Oak St",
+        "city": "Chicago",
+        "state": "IL",
+        "zip_code": "60601",
+        "created_at": "2023-09-11T10:45:22.690Z",
+        "updated_at": "2023-09-11T10:16:11.652Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ffe48070-9742-4735-bc10-ca5c5a3ec0f1",
+        "address": "321 Maple St",
+        "city": "Houston",
+        "state": "TX",
+        "zip_code": "77001",
+        "created_at": "2023-09-10T21:23:51.868Z",
+        "updated_at": "2023-09-10T17:20:20.094Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1de6483c-15ff-4822-aa04-b46bc9d851f6",
+        "address": "654 Pine St",
+        "city": "Philadelphia",
+        "state": "PA",
+        "zip_code": "19101",
+        "created_at": "2023-09-10T23:06:44.744Z",
+        "updated_at": "2023-09-10T18:42:00.030Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "outlet": [
+      {
+        "id": "9315147f-f7ce-496c-aebe-4f0bcd3a1e22",
+        "name": "Outlet 1",
+        "address": "789 Main St",
+        "city": "New York",
+        "state": "NY",
+        "zip_code": "10001",
+        "created_at": "2023-09-11T11:38:52.720Z",
+        "updated_at": "2023-09-11T11:47:30.105Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "8d6fcdab-2a93-41db-ba80-77f46c5dbdf1",
+        "name": "Outlet 2",
+        "address": "456 Elm St",
+        "city": "Los Angeles",
+        "state": "CA",
+        "zip_code": "90001",
+        "created_at": "2023-09-11T09:38:34.382Z",
+        "updated_at": "2023-09-10T22:43:33.860Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "b46e4b37-9720-4d01-8fdd-64560c8415c1",
+        "name": "Outlet 3",
+        "address": "123 Oak St",
+        "city": "Chicago",
+        "state": "IL",
+        "zip_code": "60601",
+        "created_at": "2023-09-11T00:24:56.562Z",
+        "updated_at": "2023-09-11T07:07:50.116Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "ab1a38c0-8e06-4bee-9239-20879f85b80c",
+        "name": "Outlet 4",
+        "address": "321 Maple St",
+        "city": "Houston",
+        "state": "TX",
+        "zip_code": "77001",
+        "created_at": "2023-09-11T11:06:57.361Z",
+        "updated_at": "2023-09-10T21:46:31.312Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "c96621a0-a2f8-4e93-a7e2-1f9af636e47d",
+        "name": "Outlet 5",
+        "address": "654 Pine St",
+        "city": "Philadelphia",
+        "state": "PA",
+        "zip_code": "19101",
+        "created_at": "2023-09-10T21:45:34.816Z",
+        "updated_at": "2023-09-11T04:51:59.608Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "tool": [
+      {
+        "id": "36fa89eb-e5f8-416a-b57d-c1b604aa6cdd",
+        "name": "Tool 1",
+        "description": "A versatile tool for all your needs",
+        "availability_status": false,
+        "created_at": "2023-09-11T05:54:43.512Z",
+        "updated_at": "2023-09-11T05:02:08.116Z",
+        "outlet_id": "ab1a38c0-8e06-4bee-9239-20879f85b80c"
+      },
+      {
+        "id": "b3b739c3-cce1-43d2-9c66-1a1b581d801c",
+        "name": "Tool 2",
+        "description": "The ultimate tool for professionals",
+        "availability_status": false,
+        "created_at": "2023-09-11T11:35:05.942Z",
+        "updated_at": "2023-09-11T13:24:54.244Z",
+        "outlet_id": "b46e4b37-9720-4d01-8fdd-64560c8415c1"
+      },
+      {
+        "id": "583e86a2-73ec-4a9d-994a-3f741e146986",
+        "name": "Tool 3",
+        "description": "A reliable tool for everyday tasks",
+        "availability_status": true,
+        "created_at": "2023-09-11T11:44:42.965Z",
+        "updated_at": "2023-09-10T17:09:48.894Z",
+        "outlet_id": "c96621a0-a2f8-4e93-a7e2-1f9af636e47d"
+      },
+      {
+        "id": "62ca64dd-edc7-4a54-8664-c69c3ace4924",
+        "name": "Tool 4",
+        "description": "An innovative tool with advanced features",
+        "availability_status": false,
+        "created_at": "2023-09-11T13:25:45.395Z",
+        "updated_at": "2023-09-11T13:14:36.616Z",
+        "outlet_id": "ab1a38c0-8e06-4bee-9239-20879f85b80c"
+      },
+      {
+        "id": "e759940c-dcc2-44d0-ab49-55d96094d59e",
+        "name": "Tool 5",
+        "description": "A durable tool built to last",
+        "availability_status": false,
+        "created_at": "2023-09-11T00:50:13.734Z",
+        "updated_at": "2023-09-11T09:01:07.565Z",
+        "outlet_id": "9315147f-f7ce-496c-aebe-4f0bcd3a1e22"
+      }
+    ],
+    "rental": [
+      {
+        "id": "4d3f396d-6f47-4163-a5f1-8d8ccceff465",
+        "rental_date": "2023-09-11T06:53:51.232Z",
+        "return_date": "2023-09-10T19:04:53.740Z",
+        "created_at": "2023-09-11T13:49:20.119Z",
+        "updated_at": "2023-09-11T00:11:14.390Z",
+        "tool_id": "583e86a2-73ec-4a9d-994a-3f741e146986",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9bb56245-37f4-4415-aca6-f45407521cd2",
+        "rental_date": "2023-09-11T02:49:17.772Z",
+        "return_date": "2023-09-11T11:07:14.260Z",
+        "created_at": "2023-09-10T18:59:55.822Z",
+        "updated_at": "2023-09-11T09:16:18.677Z",
+        "tool_id": "583e86a2-73ec-4a9d-994a-3f741e146986",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b1ed56de-b97b-4cda-9b3e-deee1cb8c69a",
+        "rental_date": "2023-09-11T07:27:18.298Z",
+        "return_date": "2023-09-10T17:17:33.567Z",
+        "created_at": "2023-09-11T13:47:09.193Z",
+        "updated_at": "2023-09-10T23:45:20.625Z",
+        "tool_id": "62ca64dd-edc7-4a54-8664-c69c3ace4924",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "cdbc4968-9514-4a54-9e87-31393310044e",
+        "rental_date": "2023-09-11T10:19:33.771Z",
+        "return_date": "2023-09-10T23:27:33.853Z",
+        "created_at": "2023-09-11T00:06:23.802Z",
+        "updated_at": "2023-09-10T21:04:39.513Z",
+        "tool_id": "62ca64dd-edc7-4a54-8664-c69c3ace4924",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "05c54a59-461f-44ad-82cb-24269e439bc6",
+        "rental_date": "2023-09-11T06:25:42.293Z",
+        "return_date": "2023-09-10T14:49:54.292Z",
+        "created_at": "2023-09-11T07:42:02.854Z",
+        "updated_at": "2023-09-11T12:31:55.375Z",
+        "tool_id": "e759940c-dcc2-44d0-ab49-55d96094d59e",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "19c68069-a52a-420b-93c7-9bbdec6cb4ae",
+        "email": "Norbert_Kirlin96@gmail.com",
+        "firstName": "Eldon",
+        "lastName": "Balistreri",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/64859050",
+        "tenantId": null
+      },
+      {
+        "reference": "cdfcde83-d595-4460-9943-347dca69e229",
+        "email": "Meredith38@yahoo.com",
+        "firstName": "Nella",
+        "lastName": "Schimmel",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/189.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "df68d74b-8c62-4973-a616-fd6278c9bbb8",
+        "email": "Sigurd36@gmail.com",
+        "firstName": "Aurelia",
+        "lastName": "Gusikowski",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1122.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "c1740ac1-6a59-47a5-9ab2-7005be0889b7",
+        "email": "Lacey85@yahoo.com",
+        "firstName": "Jade",
+        "lastName": "Price",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/136.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "4af66f98-8d3e-4a9e-8d71-fc67e7927017",
+        "email": "Jeffry.Becker@yahoo.com",
+        "firstName": "Ellis",
+        "lastName": "Jones",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/13134893",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "customer_profile": [
+      {
+        "id": "6ccc607b-f594-4a30-abb5-14df1fd82d22",
+        "address": "123 Main St",
+        "city": "New York",
+        "state": "NY",
+        "zip_code": "10001",
+        "created_at": "2023-09-11T12:01:22.319Z",
+        "updated_at": "2023-09-10T19:35:13.184Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0e4c2531-57a8-4662-89e3-1c510b735ba7",
+        "address": "456 Elm St",
+        "city": "Los Angeles",
+        "state": "CA",
+        "zip_code": "90001",
+        "created_at": "2023-09-11T00:27:03.448Z",
+        "updated_at": "2023-09-11T02:17:51.957Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "95b9e36d-7872-4f07-9991-6d8db2113c80",
+        "address": "789 Oak St",
+        "city": "Chicago",
+        "state": "IL",
+        "zip_code": "60601",
+        "created_at": "2023-09-10T19:21:08.022Z",
+        "updated_at": "2023-09-11T10:45:19.004Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c40afb53-a1e7-4aef-b93d-5756f37a273f",
+        "address": "321 Pine St",
+        "city": "Houston",
+        "state": "TX",
+        "zip_code": "77001",
+        "created_at": "2023-09-11T12:33:20.124Z",
+        "updated_at": "2023-09-11T00:33:21.470Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1d4920f0-fc05-4818-9d94-098bc2d45aad",
+        "address": "654 Maple St",
+        "city": "Phoenix",
+        "state": "AZ",
+        "zip_code": "85001",
+        "created_at": "2023-09-11T12:29:18.000Z",
+        "updated_at": "2023-09-11T12:48:05.067Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "outlet": [
+      {
+        "id": "696cd03b-ebc4-4814-9c2d-42b8054a3b2b",
+        "name": "Outlet 1",
+        "address": "789 Main St",
+        "city": "New York",
+        "state": "NY",
+        "zip_code": "10001",
+        "created_at": "2023-09-10T19:57:51.816Z",
+        "updated_at": "2023-09-10T17:29:59.500Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "1e002eb0-4924-4960-ad1b-bbd3e7911031",
+        "name": "Outlet 2",
+        "address": "123 Elm St",
+        "city": "Los Angeles",
+        "state": "CA",
+        "zip_code": "90001",
+        "created_at": "2023-09-10T23:28:16.763Z",
+        "updated_at": "2023-09-10T16:45:38.627Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "5ddd9a73-ebed-47f9-a026-3b2f47593955",
+        "name": "Outlet 3",
+        "address": "456 Oak St",
+        "city": "Chicago",
+        "state": "IL",
+        "zip_code": "60601",
+        "created_at": "2023-09-10T21:28:36.980Z",
+        "updated_at": "2023-09-11T04:22:57.293Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "7c955aaa-ee5d-43bb-945b-4ba79c96f96d",
+        "name": "Outlet 4",
+        "address": "321 Pine St",
+        "city": "Houston",
+        "state": "TX",
+        "zip_code": "77001",
+        "created_at": "2023-09-10T19:46:00.090Z",
+        "updated_at": "2023-09-10T23:04:42.639Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "fb90b47e-ff61-4b85-a403-08ec9b20a1ef",
+        "name": "Outlet 5",
+        "address": "654 Maple St",
+        "city": "Phoenix",
+        "state": "AZ",
+        "zip_code": "85001",
+        "created_at": "2023-09-10T22:31:29.646Z",
+        "updated_at": "2023-09-11T10:18:12.016Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "tool": [
+      {
+        "id": "73c5391e-f9cd-4abf-8e95-b26adf7ea462",
+        "name": "Tool 1",
+        "description": "A versatile tool for various tasks",
+        "availability_status": false,
+        "created_at": "2023-09-11T02:50:52.804Z",
+        "updated_at": "2023-09-10T22:21:39.237Z",
+        "outlet_id": "7c955aaa-ee5d-43bb-945b-4ba79c96f96d"
+      },
+      {
+        "id": "b2993bba-207b-46b8-9584-10fd49209838",
+        "name": "Tool 2",
+        "description": "An essential tool for professionals",
+        "availability_status": true,
+        "created_at": "2023-09-11T02:33:37.394Z",
+        "updated_at": "2023-09-11T06:30:06.295Z",
+        "outlet_id": "696cd03b-ebc4-4814-9c2d-42b8054a3b2b"
+      },
+      {
+        "id": "23116f5c-6cec-45ea-99ce-d35e26475e81",
+        "name": "Tool 3",
+        "description": "A reliable tool for everyday use",
+        "availability_status": true,
+        "created_at": "2023-09-10T23:35:04.641Z",
+        "updated_at": "2023-09-10T22:19:08.647Z",
+        "outlet_id": "fb90b47e-ff61-4b85-a403-08ec9b20a1ef"
+      },
+      {
+        "id": "75da11b7-8b76-44a1-bced-c677657bc493",
+        "name": "Tool 4",
+        "description": "A high-quality tool for precision work",
+        "availability_status": false,
+        "created_at": "2023-09-11T11:46:28.045Z",
+        "updated_at": "2023-09-11T06:10:26.015Z",
+        "outlet_id": "7c955aaa-ee5d-43bb-945b-4ba79c96f96d"
+      },
+      {
+        "id": "e41eeafb-16ca-45d8-b1f7-7a51742dcae8",
+        "name": "Tool 5",
+        "description": "A durable tool for heavy-duty applications",
+        "availability_status": false,
+        "created_at": "2023-09-11T11:09:29.268Z",
+        "updated_at": "2023-09-11T13:39:17.710Z",
+        "outlet_id": "1e002eb0-4924-4960-ad1b-bbd3e7911031"
+      }
+    ],
+    "rental": [
+      {
+        "id": "10a3fb97-740f-4f5e-9f44-1303a57d1156",
+        "rental_date": "2023-09-11T14:31:04.581Z",
+        "return_date": "2023-09-11T13:41:34.619Z",
+        "created_at": "2023-09-10T21:54:05.829Z",
+        "updated_at": "2023-09-10T23:13:29.144Z",
+        "tool_id": "75da11b7-8b76-44a1-bced-c677657bc493",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3c14b007-c9b2-4b20-829d-a21d2b9c54da",
+        "rental_date": "2023-09-11T01:09:34.764Z",
+        "return_date": "2023-09-10T15:03:20.927Z",
+        "created_at": "2023-09-11T07:47:21.152Z",
+        "updated_at": "2023-09-10T15:23:33.819Z",
+        "tool_id": "73c5391e-f9cd-4abf-8e95-b26adf7ea462",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "24822a7a-d7a7-4542-a305-187da03facbe",
+        "rental_date": "2023-09-11T10:11:21.465Z",
+        "return_date": "2023-09-10T14:50:21.907Z",
+        "created_at": "2023-09-11T10:58:01.358Z",
+        "updated_at": "2023-09-11T03:55:55.357Z",
+        "tool_id": "b2993bba-207b-46b8-9584-10fd49209838",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d41d91b3-5ae3-4489-b406-c6ea23b647ad",
+        "rental_date": "2023-09-11T11:44:18.719Z",
+        "return_date": "2023-09-11T05:40:33.581Z",
+        "created_at": "2023-09-10T20:32:03.756Z",
+        "updated_at": "2023-09-11T11:45:27.885Z",
+        "tool_id": "b2993bba-207b-46b8-9584-10fd49209838",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5679e916-8475-4467-97b9-cba2a583fcf7",
+        "rental_date": "2023-09-11T04:45:40.613Z",
+        "return_date": "2023-09-11T02:21:12.855Z",
+        "created_at": "2023-09-11T07:08:40.418Z",
+        "updated_at": "2023-09-11T04:14:22.248Z",
+        "tool_id": "b2993bba-207b-46b8-9584-10fd49209838",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "165978d0-e086-4300-8975-1b67c7c3215b",
+        "email": "Lourdes6@hotmail.com",
+        "firstName": "Aniya",
+        "lastName": "Kilback",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/389.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "453a2592-4591-46db-9eb2-9959eab570ef",
+        "email": "Jaida_Lang@hotmail.com",
+        "firstName": "Christop",
+        "lastName": "Mann",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1168.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "4fdf8a8a-b2c7-4405-a0e9-43ee7f872ad2",
+        "email": "Izabella.OHara88@gmail.com",
+        "firstName": "Kameron",
+        "lastName": "Casper",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/47246232",
+        "tenantId": null
+      },
+      {
+        "reference": "0c2ca303-3d02-4e89-a35d-6569e594a340",
+        "email": "Austyn64@yahoo.com",
+        "firstName": "Tanner",
+        "lastName": "Leffler",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/58336248",
+        "tenantId": null
+      },
+      {
+        "reference": "3063bc29-bb4d-4926-9923-c13bf4e49615",
+        "email": "Kelton_Hermiston@hotmail.com",
+        "firstName": "Alanis",
+        "lastName": "Hegmann",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/378.jpg",
+        "tenantId": null
+      }
+    ]
+  }
+]
